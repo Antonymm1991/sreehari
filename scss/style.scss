@@ -45,7 +45,19 @@
     .img1{
         position: absolute;
         left: 0;
-        width: 54px;
-        top: 117px;
+    width: 118px;
+    top: 79px;
+    @media (max-width: 575.98px){
+        width: 90px;
+    }
+}
+}
+
+.gallery-section{
+    a{
+        img{
+            width: 100%;
+            height: auto;
+        }
     }
 }
