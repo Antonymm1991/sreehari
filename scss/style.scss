@@ -16,8 +16,8 @@
                     @media (max-width: 575.98px){
                         height: 100%;
     -o-object-fit: cover;
-    object-fit: cover;
-    object-position: 78%;
+    object-fit: contain;
+    // object-position: 78%;
                     }
                 }
             }
