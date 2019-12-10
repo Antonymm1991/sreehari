@@ -1,61 +1,82 @@
-
-.nav-section{
-    .navbar{
+.nav-section {
+    .navbar {
         z-index: 1;
     }
 }
-.banner-section{
+
+.banner-section {
     margin-top: -56px;
-    .imgWrapper{
-        @media (max-width: 575.98px){
+
+    .imgWrapper {
+        background-image: url("../images/banner.jpg");
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: bottom;
+        height: 100vh;
+
+        @media (max-width: 575.98px) {
             height: 290px;
-    overflow: hidden;
+            overflow: hidden;
         }
-        img{
+
+        img {
             width: 100%;
             height: auto;
-            @media (max-width: 575.98px){
-                object-fit: cover;
-                height: 100%;
-            }
+
         }
     }
 }
 
-.title-section{
+.title-section {
     padding-top: 30px;
     position: relative;
-    .title{
+
+    .title {
         text-align: center;
-        p{
+        position: relative;
+        height: 205px;
+
+        p {
             font-family: 'Italianno', cursive;
-    font-size: 55px;
-    text-align: center;
-    margin-bottom: 0;
-    color: #33add7;
-    letter-spacing: 11px;
-    line-height: 0.8;
+            font-size: 55px;
+            text-align: center;
+            margin-bottom: 0;
+            color: #33add7;
+            letter-spacing: 11px;
+            line-height: 0.8;
         }
-        span{
+
+        span {
             text-align: center;
             color: #33add7;
             text-transform: capitalize;
         }
+        img{
+            position: absolute;
+    bottom: 0%;
+    z-index: -1;
+    width: 25%;
+    left: 39%;
+        }
     }
-    .img1{
+
+    .img1 {
         position: absolute;
         left: 0;
-    width: 118px;
-    top: 79px;
-    @media (max-width: 575.98px){
-        width: 90px;
+        width: 118px;
+        top: 79px;
+
+        @media (max-width: 575.98px) {
+            width: 90px;
+        }
     }
 }
-}
 
-.gallery-section{
-    a{
-        img{
+.gallery-section {
+    a {
+        img {
             width: 100%;
             height: auto;
         }
