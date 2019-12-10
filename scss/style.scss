@@ -91,6 +91,7 @@
 .countdown-section{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 100px;
     ul{
         display: flex;
         list-style-type: none;
@@ -115,6 +116,10 @@
                 color: #2099c7;
                 font-weight: 100;
                 margin-bottom: 15px;
+                @media (max-width: 350px) {
+                    width: 65px !important;
+                    padding: 5px 1px !important;
+                  }
                 @media (max-width: 575.98px) {
                     width: 71px;
                   }
@@ -142,4 +147,30 @@
         
     }
 }
+}
+
+.gallery-section{
+    margin-bottom: 100px;
+    .gallery{
+        .owl-nav{
+            display: none;
+        }
+        .owl-dots{
+            display: none;
+        }
+        .owl-stage-outer{
+            .owl-stage{
+                .owl-item{
+                    height: 100%;
+                    a{
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

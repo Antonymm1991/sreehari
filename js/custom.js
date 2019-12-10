@@ -22,4 +22,24 @@ let countDown = new Date('Jan 12, 2020 11:25').getTime(),
     //}
 
   }, second)
+
+
+
+  $('.gallery').owlCarousel({
+    loop:true,
+    items:1,
+    margin:0,
+    nav:false,
+    dots: false,
+    responsiveClass:true,
+    responsive:{
+        768:{
+            items:4,
+            nav:true,
+            destroy: true,
+        }
+    }
+})
+
+
 });
