@@ -176,8 +176,10 @@
 }
 
 .imgWrapper-section{
+    margin-top: 0 !important;
     .imgWrapper {
         background-image: url("../images/img2.jpg");
+        background-position-x: 50% !important;
     }
 }
 
