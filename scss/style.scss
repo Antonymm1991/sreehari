@@ -228,53 +228,61 @@ $time-4: 600s;
 .particle-1 {
   animation: animParticle $time-1 linear infinite;
   @include particles(600);
-  height: 1px;
-  width: 1px;
+  height: 2px;
+  width: 2px;
+  border-radius: 50px;
 }
 
 .particle-1:after {
   @include particles(600);
-  height: 1px;
-  width: 1px;
+  height: 2px;
+  width: 2px;
+  border-radius: 50px;
 }
 
 .particle-2 {
   animation: animParticle $time-2 linear infinite;
   @include particles(200);
-  height: 2px;
-  width: 2px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50px;
 }
 
 .particle-2:after {
   @include particles(200);
-  height: 2px;
-  width: 2px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50px;
 }
 
 .particle-3 {
   animation: animParticle $time-3 linear infinite;
   @include particles(100);
-  height: 3px;
-  width: 3px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50px;
 }
 
 .particle-3:after {
   @include particles(100);
-  height: 3px;
-  width: 3px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50px;
 }
 
 .particle-4 {
   animation: animParticle $time-4 linear infinite;
   @include particles(400);
-  height: 1px;
-  width: 1px;
+  height: 2px;
+  width: 2px;
+  border-radius: 50px;
 }
 
 .particle-4:after {
   @include particles(400);
-  height: 1px;
-  width: 1px;
+  height: 2px;
+  width: 2px;
+  border-radius: 50px;
 }
 
 @keyframes animParticle {
