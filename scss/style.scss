@@ -175,9 +175,15 @@
     }
 }
 
+.imgWrapper-section{
+    .imgWrapper {
+        background-image: url("../images/img2.jpg");
+    }
+}
 
 
-/* Config */
+
+/* particles style started*/
 $color-bg: #111;
 $color-particle: #fff;
 $spacing: 2560px;
@@ -324,3 +330,5 @@ $time-4: 600s;
   color: #666;
   text-decoration: none;
 }
+
+/* particles style ended*/
