@@ -29,7 +29,11 @@ let countDown = new Date('Jan 12, 2020 11:25').getTime(),
     loop:true,
     items:1,
     margin:0,
-    nav:false,
+    nav:true,
+    navText: [
+      "<span></span>",
+      "<span></span>"
+    ],
     dots: false,
     responsiveClass:true,
     responsive:{
